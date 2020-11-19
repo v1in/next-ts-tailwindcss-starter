@@ -1,6 +1,6 @@
 /* eslint-disable react/react-in-jsx-scope */
-import Header from 'components/Header/Header';
-import Head from 'next/head';
+import Header from "components/Header/Header";
+import Head from "next/head";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const IndexPage = () => {

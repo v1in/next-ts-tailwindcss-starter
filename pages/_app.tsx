@@ -1,6 +1,6 @@
-import { AppProps } from 'next/app';
+import { AppProps } from "next/app";
 
-import '../global.css';
+import "../global.css";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 function MyApp({ Component, pageProps }: AppProps) {

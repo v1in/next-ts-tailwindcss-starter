@@ -1,6 +1,6 @@
 module.exports = {
     important: true,
-    purge: ['./pages/**/*.tsx'],
+    purge: ["./pages/**/*.tsx"],
     theme: {},
     variants: {},
     plugins: [],
