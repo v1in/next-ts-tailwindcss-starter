@@ -29,7 +29,7 @@ const Header: FunctionComponent<unknown> = (): JSX.Element => {
                             href="https://tailwindcss.com/"
                             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                         >
-                            Learn more
+                            Tailwind v2.0
                         </a>
                     </div>
                 </div>
