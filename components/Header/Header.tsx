@@ -11,7 +11,7 @@ const Header: FunctionComponent<unknown> = (): JSX.Element => {
                         <br />
                         <span className="text-indigo-600">Start your project today.</span>
                     </h2>
-                    <h3 className="inline-block text-blue-900 font-bold my-2 p-1 rounded border-solid border-2 border-green-400">
+                    <h3 className="inline-block text-blue-900 font-bold my-2 px-3 py-1 rounded border-solid border-2 border-green-400">
                         With Tailwind CSS v2.0
                     </h3>
                 </div>
