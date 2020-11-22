@@ -1,7 +1,9 @@
 module.exports = {
-    important: true,
-    purge: ["./pages/**/*.tsx"],
-    theme: {},
+    purge: [],
+    darkMode: false, // or 'media' or 'class'
+    theme: {
+        extend: {},
+    },
     variants: {},
     plugins: [],
 };
