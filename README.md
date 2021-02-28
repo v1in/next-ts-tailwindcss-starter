@@ -45,4 +45,4 @@ Your app is ready to be deployed.
 ## `Deploy your own`
 Deploy the example using [Vercel](https://vercel.com).
 
-#### Demo - [next-ts-starter.v1in.vercel.app](next-ts-starter.v1in.vercel.app)
+#### Demo - [next-ts-starter.v1in.vercel.app](https://next-ts-starter-v1in.vercel.app/)
