@@ -3,7 +3,6 @@ import Header from "../components/Header/Header";
 import Head from "next/head";
 import { SITE_NAME } from "../utils/constants";
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const IndexPage = () => {
     return (
         <>
