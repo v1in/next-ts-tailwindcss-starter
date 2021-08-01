@@ -1,7 +1,6 @@
-/* eslint-disable react/react-in-jsx-scope */
-import { FunctionComponent } from "react";
+import { FC } from "react";
 
-const Header: FunctionComponent<unknown> = (): JSX.Element => {
+const Header: FC = () => {
     return (
         <div className="bg-gray-50 h-screen flex">
             <div className="m-auto max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
@@ -12,7 +11,7 @@ const Header: FunctionComponent<unknown> = (): JSX.Element => {
                         <span className="text-indigo-600">Start your project today.</span>
                     </h2>
                     <h3 className="inline-block text-blue-900 font-bold my-2 px-3 py-1 rounded border-solid border-2 border-green-400">
-                        With Tailwind CSS v2.0
+                        With Tailwind CSS v2.0+
                     </h3>
                 </div>
                 <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0">
@@ -29,7 +28,7 @@ const Header: FunctionComponent<unknown> = (): JSX.Element => {
                             href="https://tailwindcss.com/"
                             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                         >
-                            Tailwind v2.0
+                            Tailwind v2.0+
                         </a>
                     </div>
                 </div>
