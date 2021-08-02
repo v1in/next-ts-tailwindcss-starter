@@ -4,7 +4,7 @@ module.exports = {
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:react-hooks/recommended",
-        "prettier/@typescript-eslint",
+        "prettier",
         "plugin:prettier/recommended",
     ],
     parserOptions: {
@@ -14,7 +14,9 @@ module.exports = {
             jsx: true,
         },
     },
-    rules: {},
+    rules: {
+        "react/react-in-jsx-scope": "off",
+    },
     settings: {
         react: {
             version: "detect",

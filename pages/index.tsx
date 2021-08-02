@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import Header from "../components/Header/Header";
 import Head from "next/head";
 import { SITE_NAME } from "../utils/constants";
