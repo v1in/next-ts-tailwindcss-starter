@@ -1,4 +1,4 @@
-# next-ts-starter
+# next-ts-tailwindcss-starter
 
 Starter repo for modern web development.
 
