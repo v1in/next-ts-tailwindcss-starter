@@ -11,8 +11,7 @@
     "format": "prettier --write \"./**/*.{js,ts,jsx,tsx}\""
   },
   "engines": {
-    "node": ">=16.1.0",
-    "npm": ">=8.1.0"
+    "node": ">=14.x"
   },
   "keywords": [
     "react",
