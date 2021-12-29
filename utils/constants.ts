@@ -1,1 +1,1 @@
-export const SITE_NAME = "Next-ts-starter";
+export const SITE_NAME = 'Next-ts-starter';
