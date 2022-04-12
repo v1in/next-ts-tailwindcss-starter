@@ -1,5 +1,6 @@
-import Header from '../components/Header/Header';
 import Head from 'next/head';
+import Header from '../components/Header';
+import NextSection from 'components/NextSection';
 import {SITE_NAME} from '../utils/constants';
 
 const IndexPage = () => {
@@ -14,6 +15,7 @@ const IndexPage = () => {
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       </Head>
       <Header />
+      <NextSection />
     </>
   );
 };
