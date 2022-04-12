@@ -40,7 +40,7 @@ const Header: VFC = () => {
               width={53}
               height={20}
               alt='package version'
-              src='https://img.shields.io/npm/v/tailwindcss.svg?style=flat&label='
+              src='https://img.shields.io/github/package-json/v/tailwindcss/tailwindcss?style=flat&label='
             />
           </div>
         </div>
