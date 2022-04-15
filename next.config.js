@@ -1,5 +1,8 @@
 module.exports = {
   images: {
+    // More details - https://nextjs.org/docs/api-reference/next/image#configuration-options
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     domains: ['img.shields.io'],
   },
   publicRuntimeConfig: {
