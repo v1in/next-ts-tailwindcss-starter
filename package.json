@@ -22,27 +22,27 @@
   "author": "@v1in",
   "license": "MIT",
   "devDependencies": {
-    "@next/eslint-plugin-next": "^13.0.4",
-    "@types/node": "^18.11.9",
-    "@types/react": "^18.0.25",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "@typescript-eslint/parser": "^5.43.0",
-    "eslint": "^8.28.0",
-    "eslint-config-next": "^13.0.4",
-    "eslint-config-prettier": "^8.5.0",
+    "@next/eslint-plugin-next": "^13.2.4",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.32",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "eslint-config-next": "^13.2.4",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.9.3"
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.3"
   },
   "dependencies": {
-    "next": "^12.3.1",
-    "postcss": "8.4.19",
+    "next": "^13.2.4",
+    "postcss": "8.4.21",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^7.8.3",
+    "postcss-preset-env": "^8.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.3.1"
   }
 }
