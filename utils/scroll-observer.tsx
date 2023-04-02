@@ -1,4 +1,11 @@
-import {createContext, FC, useCallback, useEffect, useState} from 'react';
+import {
+  createContext,
+  FC,
+  PropsWithChildren,
+  useCallback,
+  useEffect,
+  useState,
+} from 'react';
 
 interface IScroll {
   scrollY: number;
@@ -8,7 +15,7 @@ export const ScrollContext = createContext<IScroll>({
   scrollY: 0,
 });
 
-const ScrollObserver: FC = ({children}) => {
+const ScrollObserver: FC<PropsWithChildren> = ({children}) => {
   const [scrollY, setScrollY] = useState(0);
 
   const handleScroll = useCallback(() => {
