@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import {VFC, useRef, useContext} from 'react';
+import {FC, useRef, useContext} from 'react';
 import {ScrollContext} from 'utils/scroll-observer';
 
-const Header: VFC = () => {
+const Header: FC = () => {
   const refContainer = useRef<HTMLDivElement>(null);
   const {scrollY} = useContext(ScrollContext);
 
@@ -17,17 +17,17 @@ const Header: VFC = () => {
   return (
     <div
       ref={refContainer}
-      className='bg-gray-50 min-h-screen flex sticky top-0 -z-10'
+      className='sticky top-0 -z-10 flex min-h-screen bg-gray-50'
       style={{transform: `translateY(${progress * 50}vh)`}}>
-      <div className='w-screen py-12 px-4 sm:px-6 lg:py-16 lg:px-8 flex flex-col items-center justify-center border-b-[10px] border-sky-400'>
-        <h2 className='text-center text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-11'>
+      <div className='flex w-screen flex-col items-center justify-center border-b-[10px] border-sky-400 px-4 py-12 sm:px-6 lg:px-8 lg:py-16'>
+        <h2 className='sm:leading-11 text-center text-3xl font-extrabold leading-9 text-gray-900 sm:text-4xl'>
           Ready to dive in?
-          <span className='text-sky-600 block mt-1'>
+          <span className='mt-1 block text-sky-600'>
             Start your project today
           </span>
         </h2>
-        <div className='flex items-center mt-10'>
-          <div className='max-w-[180px] mr-2'>
+        <div className='mt-10 flex items-center'>
+          <div className='mr-2 max-w-[180px]'>
             <Image
               src='/tailwindcss-logotype.svg'
               alt='tailwindcss logo'
@@ -40,7 +40,7 @@ const Header: VFC = () => {
               width={53}
               height={20}
               alt='package version'
-              src='https://img.shields.io/github/package-json/v/tailwindcss/tailwindcss?style=flat&label='
+              src='https://img.shields.io/github/v/release/tailwindlabs/tailwindcss?style=flat&label='
             />
           </div>
         </div>
