@@ -5,13 +5,15 @@
   "description": "Starter repo for modern web development",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run lint",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format": "prettier --write \"./**/*.{js,ts,jsx,tsx}\""
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix",
+    "format": "prettier --write \"./**/*.{js,mjs,ts,jsx,tsx}\""
   },
   "engines": {
-    "node": ">=14.x"
+    "node": ">=18.18.0"
   },
   "keywords": [
     "react",
@@ -22,27 +24,36 @@
   "author": "@v1in",
   "license": "MIT",
   "devDependencies": {
-    "@next/eslint-plugin-next": "^13.2.4",
-    "@types/node": "^20.3.3",
-    "@types/react": "^18.0.32",
-    "@typescript-eslint/eslint-plugin": "^5.57.0",
-    "@typescript-eslint/parser": "^5.57.0",
-    "eslint": "^8.37.0",
-    "eslint-config-next": "^13.2.4",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.8.7",
-    "typescript": "^5.0.3"
+    "@eslint/compat": "^1.1.1",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.9.0",
+    "@next/eslint-plugin-next": "^14.2.5",
+    "@types/node": "^22.4.1",
+    "@types/react": "^18.3.3",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
+    "eslint": "^9.9.0",
+    "eslint-config-next": "^14.2.5",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.2.0"
   },
   "dependencies": {
-    "next": "^13.2.4",
-    "postcss": "8.4.27",
+    "next": "^14.2.5",
+    "postcss": "8.4.41",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-preset-env": "^8.3.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.1"
+    "postcss-preset-env": "^10.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.10"
+  },
+  "overrides": {
+    "eslint": "^9.9.0"
   }
 }
